@@ -1,12 +1,12 @@
-# revision 23089
+# revision 26689
 # category TLCore
 # catalog-ctan /web/tie
-# catalog-date 2009-11-10 08:50:14 +0100
+# catalog-date 2012-04-27 12:20:53 +0200
 # catalog-license other-free
 # catalog-version 2.4
 Name:		texlive-tie
 Version:	2.4
-Release:	2
+Release:	3
 Summary:	Allow multiple web change files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/tie
