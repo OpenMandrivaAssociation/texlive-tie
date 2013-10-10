@@ -1,4 +1,4 @@
-# revision 26689
+# revision 29764
 # category TLCore
 # catalog-ctan /web/tie
 # catalog-date 2012-04-27 12:20:53 +0200
@@ -6,7 +6,7 @@
 # catalog-version 2.4
 Name:		texlive-tie
 Version:	2.4
-Release:	3
+Release:	4
 Summary:	Allow multiple web change files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/tie
@@ -28,7 +28,7 @@ existing changes.
 #-----------------------------------------------------------------------
 %files
 %doc %{_mandir}/man1/tie.1*
-%doc %{_texmfdir}/doc/man/man1/tie.man1.pdf
+%doc %{_texmfdistdir}/doc/man/man1/tie.man1.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,23 +38,6 @@ existing changes.
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf %{buildroot}%{_datadir}
+cp -fpar texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.4-3
-+ Revision: 812925
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.4-2
-+ Revision: 756862
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.4-1
-+ Revision: 719741
-- texlive-tie
-- texlive-tie
-- texlive-tie
-
+mv %{buildroot}%{_texmfdistdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
