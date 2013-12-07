@@ -6,7 +6,7 @@
 # catalog-version 2.4
 Name:		texlive-tie
 Version:	2.4
-Release:	5
+Release:	6
 Summary:	Allow multiple web change files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/tie
