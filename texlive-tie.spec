@@ -1,12 +1,12 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan /web/tie
-# catalog-date 2012-04-27 12:20:53 +0200
+# catalog-date 2014-01-03 12:10:34 +0100
 # catalog-license other-free
 # catalog-version 2.4
 Name:		texlive-tie
 Version:	2.4
-Release:	9
+Release:	10
 Summary:	Allow multiple web change files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/tie
@@ -22,8 +22,8 @@ Requires:	texlive-tie.bin
 %description
 Tie was originally developed to allow web programmers to apply
 more than one change file to their source. The program may also
-be used to create a new version of a web file that incorporates
-existing changes.
+be used to create a new version of a .web file that
+incorporates existing changes.
 
 #-----------------------------------------------------------------------
 %files
