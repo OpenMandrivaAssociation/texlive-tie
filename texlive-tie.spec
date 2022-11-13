@@ -1,18 +1,12 @@
-# revision 33736
-# category TLCore
-# catalog-ctan /web/tie
-# catalog-date 2014-01-03 12:10:34 +0100
-# catalog-license other-free
-# catalog-version 2.4
 Name:		texlive-tie
-Version:	2.4
-Release:	16
+Version:	62387
+Release:	1
 Summary:	Allow multiple web change files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/tie
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -32,7 +26,7 @@ incorporates existing changes.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
