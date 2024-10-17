@@ -3,7 +3,7 @@ Version:	70015
 Release:	1
 Summary:	Allow multiple web change files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/web/tie
+URL:		https://www.ctan.org/tex-archive/web/tie
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tie.doc.r%{version}.tar.xz
